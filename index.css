@@ -1,0 +1,160 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: image("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=2048x2048&w=is&k=20&c=QmU65ppziekU7cl_KNWyMCteKvhhSYueIqEBlQWvid0=");
+}
+
+.header{
+padding-top: 10px;
+height:650px;
+width: 100vw;
+background-color:rgba(246, 234, 234, 0.882);
+color: #242424;
+}
+
+.nav {
+  box-sizing: border-box;
+  width: 800px;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+
+.navbar {
+  list-style-type:none;
+  box-sizing: border-box;
+  display: flex;
+  margin-top: 30px;
+  margin-left: 20px;
+  padding:5px;
+  justify-content: space-between;
+}
+
+
+.Home{
+ padding:3px;
+width:58px;
+height:28px;
+background-color: #d07b7b;
+transition: width 1s ease-out, height 1s ease-out, background-color 1s ease-out;
+}
+
+.li-home:hover  .Home{
+  font-size: 1.5rem;
+width:100px;
+height:30px;
+ color:#000000;
+ background-color: #e86666;
+ cursor:pointer;
+}
+
+.About{
+  padding:3px;
+  width:82px;
+  height:28px;
+  background-color: #d07b7b;
+  transition: width 1s ease-out, height 1s ease-out, background-color 1s ease-out;
+  white-space: nowrap;
+}
+
+.li-about:hover  .About{
+  font-size: 1.5rem;
+  width:150px;
+  height:30px;
+   color:#000000;
+   background-color: #e86666;
+   cursor:pointer;
+}
+
+.Education{
+  padding:3px;
+  width:85px;
+  height:28px;
+  background-color: #d07b7b;
+  transition: width 1s ease-out, height 1s ease-out, background-color 1s ease-out;
+}
+
+.li-education:hover  .Education{
+  font-size: 1.5rem;
+  width:130px;
+  height:30px;
+   color:#000000;
+   background-color: #e86666;
+   cursor:pointer;
+}
+
+.Certification{
+  padding:3px;
+  width:102px;
+  height:28px;
+  background-color: #d07b7b;
+  transition: width 1s ease-out, height 1s ease-out, background-color 1s ease-out;
+}
+
+.li-certification:hover .Certification{
+  font-size: 1.5rem;
+  width:150px;
+  height:30px;
+   color:#000000;
+   background-color: #e86666;
+   cursor:pointer;
+}
+
+.Projects{
+  padding:3px;
+  width:69px;
+  height:28px;
+  background-color: #d07b7b;
+  transition: width 1s ease-out, height 1s ease-out, background-color 1s ease-out;
+}
+
+.li-project:hover  .Projects{
+  font-size: 1.5rem;
+  width:110px;
+  height:30px;
+   color:#000000;
+   background-color: #e86666;
+cursor:pointer;
+}
+
+.Skills{
+  padding:3px;
+  width:58px;
+  height:28px;
+  background-color: #d07b7b;
+  transition: width 1s ease-out, height 1s ease-out, background-color 1s ease-out;
+}
+
+.li-skills:hover  .Skills{
+  font-size: 1.5rem;
+  width:100px;
+  height:30px;
+   color:#000000;
+   background-color: #e86666;
+   cursor:pointer;
+
+}
+.post{
+  width:300px;
+  margin-left: 150px;
+  color:#000000;
+margin-top: 20px;
+}
+
+.greet{
+width:400px;
+margin-top:150px;
+margin-left: 150px;
+font-size: 3rem;
+font-weight: 700;
+color:#000000;
+text-shadow: #2b165c;
+}
+
+.address{
+    width:300px;
+    margin-top: 20px;
+    margin-left: 150px;
+    color:#000000;
+    font-size: 2rem;
+    font-weight: 700;
+}
